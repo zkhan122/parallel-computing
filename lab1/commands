@@ -1,0 +1,9 @@
+nvcc -o filename.out filename.cu
+or 
+nvcc filename.cu -o filename
+
+./filename.out
+
+c++
+g++ -o anyname filename.cpp
+./filename
