@@ -1,8 +1,8 @@
 nvcc -o filename.out filename.cu
 or 
-nvcc filename.cu -o filename
+nvcc -o my_program my_cuda_code.cu
 
-./filename.out
+./filename or filename.exe
 
 c++
 g++ -o anyname filename.cpp
